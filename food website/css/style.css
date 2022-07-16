@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.uni-pad{
+    padding: 0 5rem;
+}
+
+#header-container{
+    background: url('../images/banner-1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.right-part{
+    float: right;
+    margin-top: 3.5rem;
+}
+.deliver{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.deliver img{
+    width: 3rem;
+    margin-right: 5px;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right:  30px;
+}
+.navbar ul li a{
+    font-size: 2rem;
+    color: #3d2514;
+}
+.content{
+    display: flex;
+}
+.content .content-text{
+    position: absolute;
+    top: 40%;
+    left: 8rem;
+}
+.content .content-text p{
+    border: 2px dashed #3d2514;
+    padding: 5px 5px;
+    font-size: 2rem;
+}
+.content .content-text h1{
+    font-size: 12rem;
+    margin-top: -35px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #fff;
+}
+.content .content-text h3{
+    font-size: 8rem;
+    margin-top: -40px;
+}
+.content .content-img{
+    margin-top: 50px;
+}
+.content .content-img-1 img{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 1;
+}
+.content .content-img-2 img{
+    position: absolute;
+    top: 18%;
+    left: 80%;
+    
+}
+.content .content-img-3 img{
+    position: absolute;
+    top: 36%;
+    left: 65%;
+    z-index: 1;
+}
+.content .content-img-4 img{
+    position: absolute;
+    top: 68%;
+    left: 56%;
+    z-index: 1;
+}
+.content .content-img-4 p{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    z-index: 1;
+    font-size: 6rem;
+    color: #fff;
+}
+.content .content-img-4 span{
+    font-size: 3rem;
+}
+
+.food-container{
+    height: 80vh;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 8%;
+}
+.food-container .div-1{
+    width: 60rem;
+    height: 50rem;
+    margin-top: 8rem;
+    object-fit: 100%;
+    border-radius: 3px;
+}
+
+.food-container .div-1 img{
+    width: 100%;
+}
+
+.food-container .div-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.food-container .div-2 .img-food{
+    width: 70rem;
+    height: 20rem;
+}
+
+/* menu container start here  */
+.menu-container{
+    text-align: center;
+}
+.menu-container .tasty{
+    width: 20%;
+    margin-left: 40%;
+    font-size: 2.3rem;
+    background-color: #ffc045;
+    color: #fff;
+}
+.menu-container .heading{
+    font-size: 7rem;
+    color: #3d2514;
+}
+.menu-container .para{
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin-left: 28%;
+    color: #3d2514;
+    font-weight: lighter;
+}
+
+/* order section start here  */
+
+.order-menu{
+    display: flex;
+    gap: 10px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.order-menu .order-1 .txt-1{
+   margin-top: 66px;
+}
+
+.order-menu .order-1 .txt h1{
+    color: #3d2514;
+    font-size: 2rem;
+}
+
+.order-menu .order-1 .txt .btn{
+    padding: 5px 15px;
+    margin-top: 20px;
+    background: #bf2222;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bolder;
+}
+
+/* event section start here  */
+
+.event-container{
+    width: 100%;
+}
+.event-container .dis-img{
+    width: 80%;
+    margin-left:10%;
+    margin-top: 5%;
+    display: flex;
+    gap:70px;
+}
+.event-container .dis-img .discover{
+    margin-top: 3%;
+}
+.event-container .dis-img .discover h4{
+    font-size: 3.5rem;
+}
+.event-container .dis-img .discover h2{
+    font-size: 5rem;
+    color: #3d2514;
+    margin-top: -20px;
+}
+.event-container .dis-img .discover p{
+    max-width: 500px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.event-container .dis-img .discover .bol{
+    margin-top: 20%;
+    display: flex;
+}
+.event-container .dis-img .discover .bol .boll{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 3px;
+    border-radius: 50%;
+    background-color: #ffc045;
+    box-shadow: 5px 20px #eee
+
+}
+
+.event-container .dis-img .img-part img{
+    width: 100%;
+    height: 60vh
+}
+
+/* order section start here  */
+
+.book-table {
+    text-align: center;
+    margin-top: 30px;
+}
+.book-table h3{
+    font-size: 2rem;
+}
+.book-table h1{
+    font-size: 5rem;
+    margin-top: -8px;
+    color: #3d2514;
+}
+form .row-1{
+    margin: 20px;
+}
+
+form .row-1 input{
+    width: 350px;
+    height: 50px;
+    border: 2px solid #3d2514;
+}
+
+form .row-1 input[type]{
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.form .row-1 input[type=submit]{
+    background-color: #bf2222;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #eee;
+}
